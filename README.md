@@ -14,7 +14,7 @@ This isn't just another tutorial project - it's a **production-ready blog** that
 - **🛡️ Security First**: Built with real security practices (no SQL injection, CSRF protection, proper password hashing)
 - **⚡ Fast & Simple**: No bloated features - just what you need for a great blog
 
-## Built With Real-World Tools 🛠️
+## Built With;
 
 - **PHP 7.4+** - The backbone of everything
 - **MySQL** - Your trusty database companion
@@ -64,15 +64,6 @@ The database is pretty straightforward - just three main tables:
 - **`users`** - Where all your users live (with proper password hashing!)
 - **`posts`** - All your blog content
 - **`comments`** - User comments (with edit/delete powers)
-
-## Quick Start - Default Admin Account 🚀
-
-Want to test it out immediately? Use these credentials:
-
-- **Email**: admin@blog.com
-- **Password**: admin123
-
-_Don't forget to change this in production!_ 😉
 
 ## What's Inside This Project 📁
 
