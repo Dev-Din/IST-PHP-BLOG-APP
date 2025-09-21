@@ -1,6 +1,6 @@
 # PHP Blog Application
 
-Hey there! 👋 This is a **real-world PHP blog application** that I built from scratch. Think of it as your own personal WordPress alternative, but simpler and more focused on the essentials.
+Hey there! 👋 This is a **PHP blog application**. Think of it as your own personal WordPress alternative, but simpler and more focused on the essentials.
 
 ## What Makes This Special? ✨
 
@@ -119,15 +119,3 @@ I'm always open to improvements, bug fixes, and new features. Just make sure you
 ## License & Legal Stuff 📄
 
 This project is open source under the MIT License. Basically, you can use it, modify it, and even sell it (though I'd appreciate a shoutout if you do!).
-
-## Need Help? 🆘
-
-- **Found a bug?** Open an issue and I'll take a look
-- **Want to contribute?** Check out the contributing section above
-- **Have questions?** Feel free to ask in the issues section
-
----
-
-**Built with ❤️ and lots of coffee** ☕
-
-_This isn't just another tutorial project - it's a real blog that you can actually use and deploy._
