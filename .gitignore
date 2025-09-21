@@ -1,0 +1,204 @@
+# PHP Blog Application - .gitignore
+
+# ===========================================
+# PHP & Composer
+# ===========================================
+vendor/
+composer.lock
+composer.phar
+
+# ===========================================
+# Configuration & Environment
+# ===========================================
+.env
+.env.local
+.env.production
+.env.staging
+config.local.php
+config.production.php
+config.php
+
+# Database credentials (if stored in separate files)
+database.ini
+db_config.php
+
+# ===========================================
+# Logs & Debugging
+# ===========================================
+*.log
+logs/
+error.log
+access.log
+debug.log
+php_errors.log
+
+# ===========================================
+# Cache & Temporary Files
+# ===========================================
+cache/
+tmp/
+temp/
+*.tmp
+*.temp
+*.cache
+
+# ===========================================
+# Uploads & User Content
+# ===========================================
+uploads/
+files/
+images/
+media/
+user_uploads/
+
+# ===========================================
+# IDE & Editor Files
+# ===========================================
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# PhpStorm / IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+
+# ===========================================
+# Operating System Files
+# ===========================================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ===========================================
+# Web Server & Apache
+# ===========================================
+.htaccess.local
+.htaccess.backup
+*.htaccess.bak
+
+# ===========================================
+# Backup Files
+# ===========================================
+*.bak
+*.backup
+*.old
+*.orig
+*.rej
+*.sql.bak
+*.sql.backup
+
+# ===========================================
+# Testing & Coverage
+# ===========================================
+tests/coverage/
+phpunit.xml
+.phpunit.result.cache
+.phpunit.cache
+
+# ===========================================
+# Node.js (if using any frontend tools)
+# ===========================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# ===========================================
+# Build & Distribution
+# ===========================================
+build/
+dist/
+*.min.js
+*.min.css
+
+# ===========================================
+# Security & Sensitive Data
+# ===========================================
+# Never commit these files
+*.key
+*.pem
+*.p12
+*.pfx
+secrets/
+private/
+.private/
+
+# ===========================================
+# Documentation & Notes
+# ===========================================
+# Uncomment if you don't want to track these
+# README.md
+# CHANGELOG.md
+# TODO.md
+# NOTES.md
+
+# ===========================================
+# XAMPP Specific (if applicable)
+# ===========================================
+# XAMPP logs
+xampp/apache/logs/
+xampp/mysql/data/
+xampp/php/logs/
+
+# ===========================================
+# Custom Application Specific
+# ===========================================
+# Add any project-specific files/folders here
+# For example:
+# custom_configs/
+# local_scripts/
+# development_data/
