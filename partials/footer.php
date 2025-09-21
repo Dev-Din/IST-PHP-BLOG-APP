@@ -7,6 +7,6 @@
 
 <footer class="footer">
     <div class="container">
-        <p>&copy; <?php echo date('Y'); ?> PHP Blog Application. Built with PHP & MySQL.</p>
+        <p>&copy; <?php echo date('Y'); ?> eBlog Application. Built with PHP & MySQL.</p>
     </div>
 </footer>

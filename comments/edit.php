@@ -59,7 +59,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Edit Comment - PHP Blog</title>
+    <title>eBlog - Edit Comment</title>
+    <link rel="icon" type="image/png" href="/IST-PHP-PROJECTS/PHP-BLOG-APP/assets/blog-logo.png">
     <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body>

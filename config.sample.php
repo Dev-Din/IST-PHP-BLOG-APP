@@ -14,7 +14,7 @@ define('DB_USER', 'root');
 define('DB_PASS', '');
 
 // Application Configuration
-define('APP_NAME', 'PHP Blog');
+define('APP_NAME', 'eBlog');
 define('APP_URL', 'http://localhost/PHP-BLOG-APP');
 define('APP_ENV', 'development'); // development, staging, production
 

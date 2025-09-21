@@ -18,7 +18,8 @@ $recent_posts = getAllPosts(5);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin Dashboard - PHP Blog</title>
+    <title>eBlog - Admin Dashboard</title>
+    <link rel="icon" type="image/png" href="/IST-PHP-PROJECTS/PHP-BLOG-APP/assets/blog-logo.png">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>

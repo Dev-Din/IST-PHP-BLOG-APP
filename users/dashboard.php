@@ -29,7 +29,8 @@ $user_comments = $stmt->fetchAll();
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard - PHP Blog</title>
+    <title>eBlog - Dashboard</title>
+    <link rel="icon" type="image/png" href="/IST-PHP-PROJECTS/PHP-BLOG-APP/assets/blog-logo.png">
     <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body>
@@ -128,7 +129,7 @@ $user_comments = $stmt->fetchAll();
                             <h3><?php echo htmlspecialchars($current_user['username']); ?></h3>
                             <p><strong>Email:</strong> <?php echo htmlspecialchars($current_user['email']); ?></p>
                             <p><strong>Role:</strong> <?php echo ucfirst($current_user['role']); ?></p>
-                            <p><strong>Member since:</strong> <?php echo date('F Y', strtotime($current_user['created_at'] ?? '2024-01-01')); ?></p>
+                            <p><strong>Member since:</strong> <?php echo date('F Y', strtotime($current_user['created_at'])); ?></p>
                         </div>
                     </div>
                 </div>

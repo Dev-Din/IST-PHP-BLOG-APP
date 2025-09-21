@@ -69,7 +69,8 @@ $rejected_comments = array_filter($comments, fn($c) => $c['status'] === 'rejecte
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Manage Comments - Admin</title>
+    <title>eBlog - Manage Comments</title>
+    <link rel="icon" type="image/png" href="/IST-PHP-PROJECTS/PHP-BLOG-APP/assets/blog-logo.png">
     <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body>

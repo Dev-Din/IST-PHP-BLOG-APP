@@ -9,7 +9,7 @@ $current_user = getCurrentUser();
 
 <nav class="navbar">
     <div class="container">
-        <a href="/IST-PHP-PROJECTS/PHP-BLOG-APP/index.php" class="navbar-brand">PHP Blog</a>
+        <a href="/IST-PHP-PROJECTS/PHP-BLOG-APP/index.php" class="navbar-brand">eBlog</a>
         
         <ul class="navbar-nav">
             <li><a href="/IST-PHP-PROJECTS/PHP-BLOG-APP/index.php">Home</a></li>

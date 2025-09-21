@@ -73,7 +73,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login - PHP Blog</title>
+    <title>eBlog - Login</title>
+    <link rel="icon" type="image/png" href="/IST-PHP-PROJECTS/PHP-BLOG-APP/assets/blog-logo.png">
     <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body>
@@ -104,12 +105,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <p class="auth-link">
                     Don't have an account? <a href="register.php">Register here</a>
                 </p>
-                
-                <div class="demo-credentials">
-                    <h4>Demo Credentials:</h4>
-                    <p><strong>Admin:</strong> admin@blog.com / admin123</p>
-                    <p><strong>User:</strong> Register a new account</p>
-                </div>
             </div>
     </div>
 </body>

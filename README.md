@@ -1,6 +1,6 @@
-# PHP Blog Application
+# eBlog Application
 
-Hey there! 👋 This is a **PHP blog application**. Think of it as your own personal WordPress alternative, but simpler and more focused on the essentials.
+Hey there! 👋 This is **eBlog** - a PHP blog application. Think of it as your own personal WordPress alternative, but simpler and more focused on the essentials.
 
 ## What Makes This Special? ✨
 

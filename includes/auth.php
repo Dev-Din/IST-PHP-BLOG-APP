@@ -34,6 +34,18 @@ function getCurrentUser() {
         return null;
     }
     
+    global $pdo;
+    
+    // Get complete user data from database
+    $stmt = $pdo->prepare("SELECT * FROM users WHERE id = ?");
+    $stmt->execute([$_SESSION['user_id']]);
+    $user = $stmt->fetch();
+    
+    if ($user) {
+        return $user;
+    }
+    
+    // Fallback to session data if database query fails
     return [
         'id' => $_SESSION['user_id'],
         'username' => $_SESSION['username'],
