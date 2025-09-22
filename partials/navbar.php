@@ -17,7 +17,7 @@ $current_user = getCurrentUser();
                 <li><a href="/IST-PHP-PROJECTS/PHP-BLOG-APP/users/dashboard.php">Dashboard</a></li>
             <?php else: ?>
                 <li><a href="/IST-PHP-PROJECTS/PHP-BLOG-APP/auth/login.php">Login</a></li>
-                <li><a href="/IST-PHP-PROJECTS/PHP-BLOG-APP/auth/register.php">Register</a></li>
+                <li><a href="/IST-PHP-PROJECTS/PHP-BLOG-APP/auth/register-user.php">Register</a></li>
             <?php endif; ?>
         </ul>
         

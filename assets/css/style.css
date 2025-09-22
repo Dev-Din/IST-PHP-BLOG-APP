@@ -70,6 +70,12 @@ a:hover {
   color: var(--primary-color);
 }
 
+.navbar-brand:hover {
+  color: white !important;
+  text-decoration: none !important;
+  transition: none !important;
+}
+
 /* Buttons */
 .btn {
   display: inline-block;
