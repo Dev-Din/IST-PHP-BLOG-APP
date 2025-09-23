@@ -43,11 +43,13 @@ CREATE TABLE comments (
 
 -- Insert default admin user
 -- Password: admin123 (hashed)
-INSERT INTO users (username, email, password, role) VALUES 
-('admin', 'admin@blog.com', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'admin');
+-- INSERT INTO users (username, email, password, role) VALUES 
+-- ('admin', 'admin@blog.com', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'admin');
 
 -- Insert sample posts
-INSERT INTO posts (user_id, title, content, excerpt) VALUES 
-(1, 'Welcome to Our Blog', 'This is the first post on our amazing blog platform. Here you can share your thoughts, ideas, and connect with other users through comments and discussions.', 'Welcome to our blog platform where you can share your thoughts and connect with others.'),
-(1, 'Getting Started with PHP', 'PHP is a powerful server-side scripting language that is widely used for web development. In this post, we will explore the basics of PHP programming.', 'Learn the fundamentals of PHP programming and web development.'),
-(1, 'Building Modern Web Applications', 'Modern web applications require careful planning, clean code, and user-friendly interfaces. Let us explore the best practices for building scalable web applications.', 'Discover the best practices for building modern, scalable web applications.');
+-- INSERT INTO posts (user_id, title, content, excerpt) VALUES 
+-- (1, 'Welcome to Our Blog', 'This is the first post on our amazing blog platform. Here you can share your thoughts, ideas, and connect with other users through comments and discussions.', 'Welcome to our blog platform where you can share your thoughts and connect with others.'),
+-- (1, 'Getting Started with PHP', 'PHP is a powerful server-side scripting language that is widely used for web development. In this post, we will explore the basics of PHP programming.', 'Learn the fundamentals of PHP programming and web development.'),
+-- (1, 'Building Modern Web Applications', 'Modern web applications require careful planning, clean code, and user-friendly interfaces. Let us explore the best practices for building scalable web applications.', 'Discover the best practices for building modern, scalable web applications.');
+
+
